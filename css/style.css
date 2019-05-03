@@ -31,10 +31,6 @@ a {
   padding: 1rem;
 }
 
-.page {
-  height: 100vh;
-}
-
 /* Navbar */
 #navbar .nav-items {
   list-style: none;
