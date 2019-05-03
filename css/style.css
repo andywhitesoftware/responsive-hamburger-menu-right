@@ -45,6 +45,16 @@ a {
   color: var(--text-color);
 }
 
+#navbar .hamburger-icon {
+  float: right;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 /* Navbar Overlay */
 #navbar .menu-overlay {
   height: 100%;
@@ -66,16 +76,6 @@ a {
   width: 100%;
   text-align: center;
   margin-top: 30px;
-}
-
-#navbar .hamburger-icon {
-  float: right;
-  padding: 1rem;
-  text-decoration: none;
-  font-size: 2rem;
-  color: var(--text-color);
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .menu-overlay .overlay-content li a {
