@@ -1,0 +1,65 @@
+#navbar .hamburger-icon {
+  display: none;
+}
+
+#navbar .menu-overlay .close-menu {
+  display: none;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+#navbar .menu-overlay {
+  position: relative;
+  flex: 1;
+  width: 100vw;
+  background: none;
+  overflow-x: unset;
+}
+
+#navbar .menu-overlay .overlay-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  padding-right: 5rem;
+}
+
+#navbar .menu-overlay .overlay-content .nav-item {
+  padding: 1.5rem;
+}
+
+#navbar .logo {
+  flex: 1;
+}
+
+#navbar .logo a {
+  padding-left: 6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 3rem;
+  color: var(--logo-color);
+}
+
+#navbar .menu-overlay .overlay-content li a {
+  padding: 0;
+}
+
+#navbar .menu-overlay .overlay-content .nav-item a:hover, #navbar .menu-overlay .overlay-content .nav-item li a:focus {
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+#navbar .menu-overlay .overlay-content .nav-item:hover {
+  background: var(--logo-color);
+  cursor: pointer;
+}
